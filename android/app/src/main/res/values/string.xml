@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GymForge</string>
+    <string name="widget_description">Your daily streak, steps and water at a glance</string>
+</resources>

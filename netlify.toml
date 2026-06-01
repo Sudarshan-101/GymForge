@@ -1,0 +1,54 @@
+# ── Netlify build & routing config for GymForge (Flutter Web) ───────────────
+# Place this file in your project root (same folder as pubspec.yaml)
+
+[build]
+  command   = "flutter build web --release --base-href /"
+  publish   = "build/web"
+
+# ── SPA redirect — REQUIRED for Flutter Web ─────────────────────────────────
+# Flutter handles routing client-side. Without this rule, any direct URL or
+# page refresh hits Netlify's file server which returns 404 (no physical file).
+# This tells Netlify: always serve index.html and let Flutter's router take over.
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# ── Security headers (applied to all routes) ────────────────────────────────
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+    Permissions-Policy     = "camera=(self), microphone=()"
+
+# ── Cache: Flutter bootstrap script — never cache (changes on every deploy) ──
+[[headers]]
+  for = "/flutter_bootstrap.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+# ── Cache: Dart JS bundle — immutable (hash in filename guarantees uniqueness) ─
+[[headers]]
+  for = "/main.dart.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Cache: Flutter assets (images, fonts, JSON) — immutable ─────────────────
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Cache: Flutter canvaskit WASM ───────────────────────────────────────────
+[[headers]]
+  for = "/canvaskit/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# ── Cache: Service Worker — never cache so updates reach users instantly ─────
+[[headers]]
+  for = "/flutter_service_worker.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"

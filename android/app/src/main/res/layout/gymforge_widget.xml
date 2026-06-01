@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gymforge_widget_bg"
+    android:padding="12dp">
+
+    <!-- Date top-right -->
+    <TextView android:id="@+id/widget_date"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" android:layout_alignParentEnd="true"
+        android:text="Today" android:textColor="#8899BB" android:textSize="9sp"/>
+
+    <!-- Streak top-left -->
+    <TextView android:id="@+id/widget_streak"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+        android:text="0d streak" android:textColor="#4CAF50"
+        android:textSize="9sp" android:textStyle="bold"/>
+
+    <!-- Day strip (M T W T F S S) -->
+    <LinearLayout android:id="@+id/widget_days_row"
+        android:layout_width="match_parent" android:layout_height="18dp"
+        android:layout_below="@id/widget_streak" android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/widget_day1"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center"
+            android:text="M" android:textColor="#445566" android:textSize="8sp"
+            android:background="#2A3347"/>
+        <View android:layout_width="2dp" android:layout_height="match_parent" android:background="#1A2233"/>
+        <TextView android:id="@+id/widget_day2"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center"
+            android:text="T" android:textColor="#445566" android:textSize="8sp"
+            android:background="#2A3347"/>
+        <View android:layout_width="2dp" android:layout_height="match_parent" android:background="#1A2233"/>
+        <TextView android:id="@+id/widget_day3"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center"
+            android:text="W" android:textColor="#445566" android:textSize="8sp"
+            android:background="#2A3347"/>
+        <View android:layout_width="2dp" android:layout_height="match_parent" android:background="#1A2233"/>
+        <TextView android:id="@+id/widget_day4"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center"
+            android:text="T" android:textColor="#445566" android:textSize="8sp"
+            android:background="#2A3347"/>
+        <View android:layout_width="2dp" android:layout_height="match_parent" android:background="#1A2233"/>
+        <TextView android:id="@+id/widget_day5"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center"
+            android:text="F" android:textColor="#445566" android:textSize="8sp"
+            android:background="#2A3347"/>
+        <View android:layout_width="2dp" android:layout_height="match_parent" android:background="#1A2233"/>
+        <TextView android:id="@+id/widget_day6"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center"
+            android:text="S" android:textColor="#445566" android:textSize="8sp"
+            android:background="#2A3347"/>
+        <View android:layout_width="2dp" android:layout_height="match_parent" android:background="#1A2233"/>
+        <TextView android:id="@+id/widget_day7"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1" android:gravity="center"
+            android:text="S" android:textColor="#445566" android:textSize="8sp"
+            android:background="#2A3347"/>
+    </LinearLayout>
+
+    <!-- Ring track -->
+    <ImageView android:id="@+id/widget_ring_bg"
+        android:layout_width="90dp" android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/widget_days_row" android:layout_marginTop="4dp"
+        android:background="@drawable/widget_ring_track"
+        android:contentDescription="@null"/>
+
+    <!-- Steps value -->
+    <TextView android:id="@+id/widget_steps"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/widget_days_row" android:layout_marginTop="22dp"
+        android:text="0" android:textColor="#E8EDF5"
+        android:textSize="26sp" android:textStyle="bold"/>
+
+    <!-- steps label -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_below="@id/widget_steps"
+        android:text="steps" android:textColor="#8899BB" android:textSize="9sp"/>
+
+    <!-- +250ml button -->
+    <TextView android:id="@+id/widget_water_btn"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:text="+250ml" android:textColor="#7AAAD4"
+        android:textSize="9sp" android:textStyle="bold"
+        android:background="@drawable/widget_btn_bg" android:padding="4dp"/>
+
+    <!-- Bottom: distance | calories -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+            <TextView android:id="@+id/widget_distance"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="0.00 km" android:textColor="#C5CFDF"
+                android:textSize="12sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="distance" android:textColor="#8899BB" android:textSize="8sp"/>
+        </LinearLayout>
+        <ImageView android:layout_width="1dp" android:layout_height="24dp"
+            android:background="#4A5F7A" android:contentDescription="@null"/>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+            <TextView android:id="@+id/widget_calories"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="0 kcal" android:textColor="#C5CFDF"
+                android:textSize="12sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="calories" android:textColor="#8899BB" android:textSize="8sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

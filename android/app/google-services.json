@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659942518247",
+    "project_id": "gymforge-f9fe3",
+    "storage_bucket": "gymforge-f9fe3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659942518247:android:d29e87f79f3a1a4bdc6142",
+        "android_client_info": {
+          "package_name": "com.gymforge.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWzMixBod41zJozuGHQieYr9VDJeQtwjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Owners — full access via Firebase Auth
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Members — no Firebase Auth. Open paths they need.
+    match /gyms/{gymId} {
+      allow read: if true;   // needed for prize, gym name
+    }
+    match /gyms/{gymId}/members/{memberId} {
+      allow read: if true;
+      allow update: if true;
+    }
+    match /gyms/{gymId}/members/{memberId}/daily_stats/{date} {
+      allow read, write: if true;
+    }
+    match /gyms/{gymId}/attendance/{date} {
+      allow read, write: if true;
+    }
+    match /gyms/{gymId}/announcements/{docId} {
+      allow read: if true;
+    }
+  }
+}

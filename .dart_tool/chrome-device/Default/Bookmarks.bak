@@ -1,0 +1,117 @@
+{
+   "checksum": "618bbf569e82057762956d8c48fdbf4c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13374695384951814",
+            "date_last_used": "0",
+            "guid": "0ff2d1c9-4ef7-4ac2-a4b6-b899b25f9466",
+            "id": "7",
+            "name": "EduPlusCampus",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://mymatoshri.edupluscampus.com/notification",
+            "visit_count": 0
+         }, {
+            "date_added": "13375305434204280",
+            "date_last_used": "0",
+            "guid": "08b46403-aee4-43c2-bccb-f7f080747493",
+            "id": "8",
+            "name": "Dashboard",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://seowriting.ai/dashboard",
+            "visit_count": 0
+         }, {
+            "date_added": "13375301385466406",
+            "date_last_used": "0",
+            "guid": "5e21f9f9-be63-40fb-94bf-40269525a9f2",
+            "id": "9",
+            "name": "Dashboard ‹ NextGenTech — WordPress",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://logical-lucas-f7.zipwp.link/wp-admin/",
+            "visit_count": 0
+         }, {
+            "date_added": "13375305488333035",
+            "date_last_used": "0",
+            "guid": "f901fc01-d76f-4dfc-985c-7430841aa61e",
+            "id": "10",
+            "name": "Dashboard @ Adsterra",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://beta.publishers.adsterra.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13374695489449912",
+            "date_last_used": "0",
+            "guid": "310afa93-d84a-48c2-9710-381743f973b2",
+            "id": "11",
+            "name": "ChatGPT",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://chatgpt.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13411306483914332",
+            "date_last_used": "13420045680014434",
+            "guid": "397dda29-070f-4ffa-8c81-533dd115d50d",
+            "id": "12",
+            "name": "Dashboard – Microsoft Rewards",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://rewards.bing.com/dashboard",
+            "visit_count": 5
+         } ],
+         "date_added": "13424787378505373",
+         "date_last_used": "0",
+         "date_modified": "13411306483914332",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13424787378505373",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13424787378505373",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13424787378505373",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Workspaces",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCKcoWmidAQAAEgAqGC9jUkxxZXhpMjNwNGkzQVUxNXZDSGc9PUgDoAYHEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDIyMmQ4YTg4LTBjYzAtNTgwMy04NDNmLTEwMmU4NjBmYTk2MxgAIAAoADDn8Z3erDI4oPmd3qwyQKD5nd6sMkoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKOAQgFEokBChx3UkJyWkwrNlBBOWF2S2dqTlA3SlhETGNmdnM9EiQyZjdmNjM0OC1lN2E0LTU0MzEtODkwYi0wZTg2MTQ1ZTI1MmMYACAAKAAwhebHz6kzOIXpx8+pM0CF6cfPqTNKHG5teDY1c1FEdnhJOFRnRWV2K0ErbnR0b1NuND1aAGUAAAAAwj4CYAASrQEICxKoAQocSXZ2c2NXUGEycmtSRGVtZEJ6cWVGVEUwT253PRIkMzEwYWZhOTMtZDg0YS00OGMyLTk3MTAtMzgxNzQzZjk3M2IyGAAgACgAMLqGv8+JMzjB5bLjtTJAweWy47UyShwyU2g0bHhRdDArendqMnFNaSttcC9VM2RtZ1k9Wh8iHd4waTIzRFR4dE1RMFhLQmJXTzFlNjlTcUZaVEk9ZW14BGfCPgJgBRKtAQgKEqgBChxieXpvOGoyUU94OFMwUUVGaTdQYTdWT2tzM0U9EiRmOTAxZmMwMS1kNzZmLTRkZmMtOTg1Yy03NDMwODQxYWE2MWUYACAAKAAwu4a/z4kzOIjlsuO1MkCI5bLjtTJKHGNtcFVnTDlXZnRqUy9CN1BaNEQ4RGtNTEJQRT1aHyIdvEhBWUNNcVNzekc0K01CcEhHYVA1VlNoSUtWdz1lfoWlHcI+AmAFEqwBCAgSpwEKHGNsL0VWVFZaWlJXa3lWRlZ0dFBQSk8vUzdJYz0SJDA4YjQ2NDAzLWFlZTQtNDNjMi1iY2NiLWY3ZjA4MDc0NzQ5MxgAIAAoADC5hr/PiTM4weSy47UyQMHksuO1MkocY1orQURvT1p5bFVIY29yNVVTOU1tV21udjRZPVoeIhxEemVaMDBlNHpKQ3RFYm4yeDlGZms3R0J5Q3M9ZU8lldHCPgJgBRKsAQgHEqcBChwvVGdibitINzZOelduZFJhTjQrVXFjdVFMakU9EiQwZmYyZDFjOS00ZWY3LTRhYzItYTRiNi1iODk5YjI1Zjk0NjYYACAAKAAwvIa/z4kzOKHksuO1MkCh5LLjtTJKHFgwN3RUOUFqRHdZVjNkY01obHFyNnFmcU01MD1aHiIcOWxsTDYvY2VvQU5laDljb1AzVXN2b1NFUTlrPWXyORgpwj4CYAUSrAEICRKnAQocQ0pBcEhxbDBFekZZd2dSTWpnUndLU3IzUnRrPRIkNWUyMWY5ZjktYmU2My00MGZiLTk0YmYtNDAyNjk1MjVhOWYyGAAgACgAMLiGv8+JMzjp5LLjtTJA6eSy47UyShxtMUFrcjJ5ZTFMcCtFODVGaFVxSk11R2l4azQ9Wh4iHHlyR2pPMVVTNlJEdXN1b0NVcGcwRUFVN29pRT1lTGxjCcI+AmAFEq0BCAwSqAEKHEhrd1dtRVM3bC91OVVjVHpXRWRoOWUvNnVRST0SJDM5N2RkYTI5LTA3MGYtNGZmYS04YzgxLTUzM2RkMTE1ZDUwZBgAIAAoADCm0ejC1jM46fnQ+7UzQOn50Pu1M0ocRjJuSFJtczZrb2ZnWkZacmtocHF1VmNvM2JFPVofIh3vTmlmaWJqRTJTaVVFTURxeGtmUFU5NUM0aFFjPWVthEDgwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkYzk4MjEwNjUtZTAyYy01MWJhLTlhNjktMmYwZmIxM2UwNWFlGAAgACgAMOHxnd6sMjjA+J3erDJAwPid3qwyShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDA4ZDBhYWFhLTM0NzYtNWUzMy04YWRjLWJkNWY2MTM1MWNlMRgAIAAoADDi8Z3erDI42vid3qwyQNr4nd6sMkocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgADAAOAA=",
+   "version": 1
+}

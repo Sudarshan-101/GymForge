@@ -1,0 +1,84 @@
+{
+   "checksum": "c36d07e9b57b9e84e86a4783c7e639e5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13374695384951814",
+            "date_last_used": "0",
+            "guid": "0ff2d1c9-4ef7-4ac2-a4b6-b899b25f9466",
+            "id": "7",
+            "name": "EduPlusCampus",
+            "type": "url",
+            "url": "https://mymatoshri.edupluscampus.com/notification"
+         }, {
+            "date_added": "13375305434204280",
+            "date_last_used": "0",
+            "guid": "08b46403-aee4-43c2-bccb-f7f080747493",
+            "id": "8",
+            "name": "Dashboard",
+            "type": "url",
+            "url": "https://seowriting.ai/dashboard"
+         }, {
+            "date_added": "13375301385466406",
+            "date_last_used": "0",
+            "guid": "5e21f9f9-be63-40fb-94bf-40269525a9f2",
+            "id": "9",
+            "name": "Dashboard ‹ NextGenTech — WordPress",
+            "type": "url",
+            "url": "https://logical-lucas-f7.zipwp.link/wp-admin/"
+         }, {
+            "date_added": "13375305488333035",
+            "date_last_used": "0",
+            "guid": "f901fc01-d76f-4dfc-985c-7430841aa61e",
+            "id": "10",
+            "name": "Dashboard @ Adsterra",
+            "type": "url",
+            "url": "https://beta.publishers.adsterra.com/"
+         }, {
+            "date_added": "13374695489449912",
+            "date_last_used": "0",
+            "guid": "310afa93-d84a-48c2-9710-381743f973b2",
+            "id": "11",
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
+         }, {
+            "date_added": "13411306483914332",
+            "date_last_used": "13420045680014434",
+            "guid": "397dda29-070f-4ffa-8c81-533dd115d50d",
+            "id": "12",
+            "name": "Dashboard – Microsoft Rewards",
+            "type": "url",
+            "url": "https://rewards.bing.com/dashboard"
+         } ],
+         "date_added": "13424787378505373",
+         "date_last_used": "0",
+         "date_modified": "13411306483914332",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13424787378505373",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13424787378505373",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
